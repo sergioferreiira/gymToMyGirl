@@ -1,0 +1,40 @@
+
+.information {
+    margin-top: 10%;
+    color: white;
+    font-family: var(--primary-font);
+    text-align: center;
+}
+.title {
+    margin-top: 5%;
+    color: white;
+    font-family: var(--primary-font);
+    text-align: center;
+}
+
+.text {
+    margin: 15% 10%;
+}
+
+.buttons {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.links {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    width: auto;
+    padding: 1em;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 2px #5b696e;
+}
+
+.links:hover {
+    box-shadow: 8px 8px 5px 2px #30373a;
+}

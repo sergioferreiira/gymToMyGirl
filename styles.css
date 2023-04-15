@@ -1,0 +1,18 @@
+@import url("styles/welcome.css");
+@import url("styles/legs.css");
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Oswald:wght@300;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-font: 'Oswald', sans-serif;
+    --primary-color: #23538a;
+    --gradient: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+}
+
+body {
+    background: var(--gradient);
+    min-height: 100vh;
+} 
